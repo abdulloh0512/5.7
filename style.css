@@ -1,0 +1,51 @@
+.search {
+    background: url('./Combined\ Shape.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.btnSearch{
+    height: 1.75rem;
+    background: url('./Path.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.result{
+    bottom: -12rem;
+    left: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    z-index: 1;
+}
+.result-container div{
+    width: 100% !important;
+}
+.result-container .text{
+    font-size: 12px;
+}
+
+#map, #mapid, #mapa{
+    height: 600px; 
+    z-index: -1;
+}
+
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px){
+    .result{ 
+        bottom: -3.5rem;
+        left: 20%;
+    }
+    .result-container>div{
+        width: 25% !important;
+    }
+}
